@@ -1,4 +1,4 @@
-baseURL = 'http://www.omberaldi.de/'
+baseURL = 'https://www.omberaldi.de/'
 languageCode = 'de-de'
 title = 'Omberaldi'
 theme = 'ananke'
