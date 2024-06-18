@@ -1,4 +1,10 @@
-baseURL = 'https://www.omberaldi.de/'
+# baseURL = 'http://www.omberaldi.de/'
+baseURL = 'http://www.marco-sanna.de/omberaldi/'
 languageCode = 'de-de'
 title = 'Omberaldi'
 theme = 'ananke'
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
