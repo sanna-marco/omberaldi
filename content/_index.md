@@ -3,6 +3,7 @@ title: "Benvenuti in der Località Omberaldi"
 omit_header_text: true
 type: page
 cascade:
+  layout: leftalign
   featured_image: 'static/images/hero.jpg'
 ---
 Eingebettet in das kleine malerisch Valgraziosa-Tal, nur wenige Kilometer östlich von Pisa am Fuße des Monte Pisano, der mächtigen Pisaner Hügelkette, liegt unsere **Casina degli Omberaldi**.
