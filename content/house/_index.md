@@ -1,5 +1,6 @@
 ---
 title: "Das Haus"
+layout: leftalign
 menu: 
   main:
     weight: 1
