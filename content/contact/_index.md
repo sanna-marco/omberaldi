@@ -6,7 +6,7 @@ menu:
 ---
 Frau Heike Kreitz
 
-Telefon + 39 050 936031
+Telefon: + 39 050 936031
 
 Mobil: + 39 349 7077615
 
