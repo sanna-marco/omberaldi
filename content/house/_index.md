@@ -10,6 +10,7 @@ Das im traditionellen Stil restaurierte, rustikale Olivenbauernhäuschen hat sei
 
 ---
 
+
 Das erste Schlafzimmer: 
 
 !['Das erste Schlafzimmer'](/static/images/bett.jpeg)
@@ -18,6 +19,7 @@ Das erste Schlafzimmer:
 ---
 
 Das zweite Schlafzimmer:
+
 
 !['Das zweite Schlafzimmer'](/static/images/Schlafzimmer2.jpeg) 
 <!--- !['das zweite Schlafzimmer aus einer anderen perspektive'](/static/images/bett4.jpeg) --->
