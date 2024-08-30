@@ -4,9 +4,9 @@
 <style>
 li.image-gallery {float: left; display: block; margin: 0 0 5% 5%; width: 20%;}
   .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
-  .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 1px 0;}
+  .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
   .image-gallery li a img {width: 100%; display: block;}
-  a {font-size: 55%;}
+
 </style>
 <ul class="image-gallery">
 {{ $image := (.Page.Resources.ByType "image") }}
@@ -16,7 +16,7 @@ li.image-gallery {float: left; display: block; margin: 0 0 5% 5%; width: 20%;}
     {{ $resized := .Fill "200x200 q80" | resources.Copy $thumbname }}
     {{- $imagetitle := index (split .Name ".") 0 -}}
     <li class="image-gallery">
-    <a href="{{ .Permalink }}" data-lightbox="x" data-title="{{ with .Exif }}{{ .Tags.ImageDescription }}{{ end }}"><img src="{{ $resized.Permalink }}" />
+    <a style="font-size: 50%;" href="{{ .Permalink }}" data-lightbox="x" data-title="{{ with .Exif }}{{ .Tags.ImageDescription }}{{ end }}"><img src="{{ $resized.Permalink }}" />
     <span> {{ $imagetitle }} </span>
     </a>
     </li>
