@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+<style>
+li.image-gallery {float: left; display: block; margin: 0 0 5% 5%; width: 20%;}
+  .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+  .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 1px 0;}
+  .image-gallery li a img {width: 100%; display: block;}
+  a {font-size: 55%;}
+</style>
+<ul class="image-gallery">
+{{ $image := (.Page.Resources.ByType "image") }}
+{{ with $image }}
+    {{ range . }}
+    {{ $thumbname := printf "%s/%s%s%s" (path.Dir .RelPermalink) (path.BaseName .RelPermalink) "_t" (path.Ext .RelPermalink) }}
+    {{ $resized := .Fill "200x200 q80" | resources.Copy $thumbname }}
+    {{- $imagetitle := index (split .Name ".") 0 -}}
+    <li class="image-gallery">
+    <a href="{{ .Permalink }}" data-lightbox="x" data-title="{{ with .Exif }}{{ .Tags.ImageDescription }}{{ end }}"><img src="{{ $resized.Permalink }}" />
+    <span> {{ $imagetitle }} </span>
+    </a>
+    </li>
+    {{ end }}
+{{ end }}
+</ul>
