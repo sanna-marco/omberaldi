@@ -10,28 +10,4 @@ Das im traditionellen Stil restaurierte, rustikale Olivenbauernhäuschen hat sei
 
 ---
 
-Das erste Schlafzimmer: 
-
-!['Das erste Schlafzimmer'](/static/images/bett.jpeg)
-
-
----
-
-Das zweite Schlafzimmer:
-
-!['Das zweite Schlafzimmer'](/static/images/Schlafzimmer2.jpeg) 
-
-
----
-
-Die untere Etage:
-
-!['Der untere Innenraum'](/static/images/innenraum.jpeg)!['Der untere Innenraum aus einer anderen Perspektive'](/static/images/innenraumunten.jpeg) !['Das Esszimmer im unteren Innenraum'](/static/images/esszimmerunten.jpeg)
-
----
-
-Die obere Etage:
-
-!['Die obere Etage von der Treppe aus gesehen'](/static/images/etage2.jpeg) !['Das Wohnzimmer in der oberen Etage'](/static/images/innenraum2.jpeg) !['Das Badezimmer in der oberen Etage'](/static/images/bad.jpeg)
-
----
+{{<gallery>}}
