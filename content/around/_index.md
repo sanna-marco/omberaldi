@@ -16,3 +16,5 @@ Ausflugsziele:
  * Torre del Lago: Puccini-Festival auf der Seebühne im Juli/August, Wohnhaus von Giaccomo Puccini
  * Forte dei Marmi, Viareggio: bekannte italienische Badeorte
  * Marina di Pisa, Marina di Vecchiano: nächstgelegene Badestrände, ca. 30 Min. mit dem Auto.
+
+{{<gallery>}}
